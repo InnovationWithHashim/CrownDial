@@ -1,0 +1,78 @@
+.collectionsPage {
+    padding: 20px;
+    background-color: #00473E; /* Primary Color */
+    color: #FFFFF0; /* Secondary Color */
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #D4AF37; /* Accent Color */
+    margin-top: 40px;
+  }
+  
+  .collectionsGrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .collectionItem {
+    background-color: #003B31;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .collectionItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .collectionImage {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #D4AF37; /* Accent Color */
+  }
+  
+  .collectionTitle {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+  
+  .collectionDescription {
+    font-size: 1rem;
+    padding: 0 10px 20px;
+  }
+  
+  .specialEdition {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #003B31;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .specialEditionImage {
+    width: 50%;
+    height: auto;
+    border-right: 2px solid #D4AF37; /* Accent Color */
+  }
+  
+  .specialEditionContent {
+    padding: 20px;
+    color: #FFFFF0; /* Secondary Color */
+  }
+  
+  .specialEditionContent h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #D4AF37; /* Accent Color */
+  
+  }
+  

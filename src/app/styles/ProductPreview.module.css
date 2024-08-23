@@ -1,0 +1,41 @@
+/* styles/ProductPreview.css */
+.productPreview {
+    background-color: #fffff0; /* Ivory */
+    border: 1px solid #d4af37; /* Gold */
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 70px;
+    max-width: 250px;
+    justify-content: center;
+  }
+  
+  .productImage {
+    width: 150px;
+    height: 150px;
+    border-bottom: 2px solid #d4af37; /* Gold */
+    margin-bottom: 12px;
+  }
+  
+  .productName {
+    font-size: 1.2rem;
+    color: #00473e; /* Dark Green */
+    margin: 8px 0;
+  }
+  
+  .productDescription {
+    font-size: 1rem;
+    color: #00473e; /* Dark Green */
+    margin: 8px 0;
+  }
+  
+  .productPrice {
+    font-size: 1.1rem;
+    color: #d4af37; /* Gold */
+    font-weight: bold;
+  }
+
+  
+
+  

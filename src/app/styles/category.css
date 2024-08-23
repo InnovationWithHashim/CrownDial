@@ -1,0 +1,65 @@
+/* styles/CategorySection.css */
+.category-section {
+    padding: 20px;
+    background-color: #00473e; /* Dark Green */
+    color: #fffff0; /* Ivory */
+   
+  }
+  
+  .section-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color :#d4af37;
+  
+  }
+  
+  .category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  .category-card {
+    background-color: #fffff0; /* Ivory */
+    color: #00473e; /* Dark Green */
+    border: 1px solid #d4af37; /* Gold */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .category-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .category-description {
+    font-size: 1rem;
+  }
+  .product-preview-mens h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #d4af37;
+    padding-top: 50px;
+  }
+  .product-preview-mens{
+    background-color: #00473e;
+    
+  }
+  .product-preview-mens-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
+    
+  }
+ 

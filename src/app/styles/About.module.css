@@ -1,0 +1,82 @@
+.aboutPage {
+    padding: 20px;
+    background-color: #00473E; /* Primary Color */
+    color: #FFFFF0; /* Secondary Color */
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 50px;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #D4AF37; /* Accent Color */
+  }
+  
+  .contentBlock {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .subHeading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #FFFFF0; /* Secondary Color */
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #FFFFF0; /* Secondary Color */
+  }
+  
+  .reasonsGrid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .reasonItem {
+    background-color: #003B31;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .reasonItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .testimonialsGrid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonialItem {
+    background-color: #003B31;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  .review {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .customerName {
+    font-size: 1rem;
+    color: #D4AF37; /* Accent Color */
+  }
+  

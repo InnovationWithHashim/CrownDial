@@ -1,0 +1,56 @@
+/* Navbar Styles */
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  15px 20px;
+    background-color: #00473E; 
+    border-bottom: #D4AF37 solid 2px;
+    color: #fff;
+}
+
+
+
+.navbar-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.navbar-nav ul li {
+    position: relative;
+}
+
+.navbar-nav ul li a {
+    text-decoration: none;
+    color: #FFFFF0;
+    font-family:Source Sans 3;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 7px 10px;
+    transition: color 0.3s ease;
+    
+}
+
+.navbar-nav ul li:hover {
+    color: #D4AF37; /* Gold color on hover */
+}
+
+.navbar-nav ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #D4AF37;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-nav ul li:hover::after {
+    width: 100%;
+}
